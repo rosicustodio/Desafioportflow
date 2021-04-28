@@ -9,18 +9,24 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 h1{
     font-family:'Montserrat', sans-serif;
     margin-left: 1rem;
     font-size: 2rem;
     text-transform: capitalize;
+    padding-left: 1vh;
 }
 ul{
     display:inline-block;
     list-style: none;
     display:flex;
-    justify-content: space-evenly;  
+    justify-content: space-evenly; 
+    align-items: center; 
+    font-size: 2vh;
+    padding-left: 2rem;
+    color: black;
 }
 li{
     margin-left: 1rem;
@@ -47,14 +53,14 @@ h2{
     font-size: 4rem;
     text-transform: capitalize;
 }
-p{
+.header-p{
     margin: 1rem 10rem 0rem 0rem;
     margin-left: 5rem;
     font-size: 1rem;
     text-transform:uppercase;
 }
 main{
-    width:100%
+    width:100%;
 }
 .container-box{
     margin: 3rem;
@@ -80,24 +86,38 @@ main{
     width:250px;
 }
 footer{
-    width: 100%;
-    height:10%;
+    max-width: 1024px;
+    width:100%;
+    height:60px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    background-color:darkgrey;
+    text-transform: capitalize;
+    margin-left: 12vh;
+    margin-top: 5vh;
 }
 .footer-box{
-    display:inline-block;
+    display:flex;
     justify-content:space-evenly;
-    align-items:center;
-    height: 2px;;
-    margin: 1rem;
-    margin-left: 5rem;
+    width:380px;
+    padding-left: 1rem;
+    
 }
-h3{
-
+.texto-h3{
+    font-size: 2vh;
+    width:8%;
+    color:black;
+    padding-left: 5rem;
 }
-.footer-texto{
-    margin: 1rem 20rem 1rem 1rem;
-    font-size:1%;
-    text-transform:initial;
+.texto-p{
+    font-size: 10px;
+    width: 532px;
+    height:32px;
+    color:black;
+    padding-left: 5rem;
 }
 
 
