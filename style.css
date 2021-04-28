@@ -5,32 +5,37 @@
     font-family: 'Montserrat', sans-serif;
 }
 .menu-um{
-    width:100vw;
+    height:5vw;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
+    margin-left:7vw;
 }
 h1{
     font-family:'Montserrat', sans-serif;
-    margin-left: 1rem;
     font-size: 2rem;
     text-transform: capitalize;
     padding-left: 1vh;
 }
 ul{
-    display:inline-block;
-    list-style: none;
     display:flex;
+    list-style: none;
     justify-content: space-evenly; 
     align-items: center; 
-    font-size: 2vh;
-    padding-left: 2rem;
-    color: black;
+    margin-right:7vw;
+}
+a{
+    color:gray;
+    text-decoration:none;
+    font-size:20px;  
+}
+li :hover{
+    color:black;
+    font-weight:bold;
 }
 li{
-    margin-left: 1rem;
-    color:grey;
+    width:115px;
 }
 header{
     width:100%;
@@ -40,7 +45,7 @@ header{
 }
 .texto-header{
     background-image: url(img/laranja\ azul\ recorte.png);
-    height:100vh;
+    height:90vh;
     background-size: cover;
     background-repeat: no-repeat;
     display:flex;
@@ -50,7 +55,7 @@ header{
 h2{
     margin: 15rem 0rem 3rem 2rem;
     margin-left: 5rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-transform: capitalize;
 }
 .header-p{
@@ -94,7 +99,6 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
-    background-color:darkgrey;
     text-transform: capitalize;
     margin-left: 12vh;
     margin-top: 5vh;
